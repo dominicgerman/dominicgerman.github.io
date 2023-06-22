@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/logo.png" />
+    <title>Clearview the church</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/build/index.css" />
+  </head>
+
+  <body
+    class="overflow-x-hidden bg-white font-rubik [&_h1]:font-forum [&_h2]:font-forum [&_h3]:font-forum [&_h4]:font-forum [&_figcaption]:font-forum"
+  >
+    <!-- HEADER -->
+    <div
+      class="relative flex items-center shadow-sm h-16 lg:h-20 justify-between bg-white lg:max-w-[1280px] lg:px-10 mx-auto"
+    >
+      <a href="/">
+        <div class="flex items-center gap-2 lg:gap-4 pl-4 lg:pl-0">
+          <img
+            src="/images/logo.png"
+            alt="Clearview Chapel logo"
+            class="h-10 w-10 lg:h-14 lg:w-14"
+          />
+          <img
+            src="/images/title.png"
+            alt="Clearview Chapel logo"
+            class="h-8 w-36 lg:h-14 lg:w-60"
+          />
+        </div>
+      </a>
+      <input
+        type="checkbox"
+        class="opacity-0 peer absolute right-4 h-10 w-10 lg:hidden z-50"
+      />
+      <svg
+        class="peer-checked:hidden absolute right-4 z-40 lg:hidden"
+        width="40"
+        height="16"
+        viewBox="0 0 40 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="40" height="2" fill="black" />
+        <rect y="7" width="40" height="2" fill="black" />
+        <rect y="14" width="40" height="2" fill="black" />
+      </svg>
+      <svg
+        class="hidden peer-checked:block absolute right-4 z-40 lg:hidden"
+        width="40"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="0.443848"
+          y="30.1421"
+          width="42"
+          height="2"
+          transform="rotate(-45 0.443848 30.1421)"
+          fill="black"
+        />
+        <rect
+          x="1.85791"
+          y="0.443604"
+          width="42"
+          height="2"
+          transform="rotate(45 1.85791 0.443604)"
+          fill="black"
+        />
+      </svg>
+      <nav
+        class="hidden peer-checked:flex flex-col items-center justify-center gap-16 fixed top-0 left-1/2 -translate-x-1/2 text-2xl bg-white h-screen w-screen z-30 lg:flex lg:flex-row lg:static lg:text-lg lg:gap-12 lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-x-0"
+      >
+        <a href="/first-time-visitors.html" class="">I'm new</a>
+        <a href="/team.html" class="">Team</a>
+        <a
+          href="/ministries.html"
+          class="font-medium underline underline-offset-8 decoration-lightBlue decoration-4"
+          >Ministries</a
+        >
+        <a href="/support.html">
+          <button class="bg-lightBlue text-white px-8 py-2 rounded-full">
+            Give
+          </button>
+        </a>
+      </nav>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+      <h1 class="text-6xl py-20 text-center">Our ministries</h1>
+
+      <section class="background__clip">
+        <div class="my-28 mx-auto flex gap-44 justify-center">
+          <article class="max-w-[500px]">
+            <h2 class="text-6xl mb-8">
+              <span class="highlight__dark leading-tight">
+                Student <br />
+                Ministry
+              </span>
+            </h2>
+            <p class="text-lg mb-10">
+              Our student ministry (grades 5th-12th) is an inclusive environment
+              where students can express themselves, build lasting friendships,
+              and feel supported on their journey of faith. In between Six Flags
+              trips and Braves games, the ministry provides opportunities for
+              leadership training, community service projects, and outreach
+              initiatives. The welcoming environment, engaging activities, and
+              transformative encounters with Jesus empower young hearts to
+              thrive in their faith journey and impact the world around them.
+            </p>
+          </article>
+          <div class="max-w-[470px]">
+            <img src="/images/student-ministry.jpg" alt="" class="w-full" />
+          </div>
+        </div>
+        <div class="my-28 mx-auto flex gap-44 justify-center">
+          <div class="max-w-[470px]">
+            <img src="/images/childrens-ministry.jpg" alt="" class="w-full" />
+          </div>
+          <article class="max-w-[500px]">
+            <h2 class="text-6xl mb-10">
+              <span class="highlight__dark leading-tight">
+                Children's <br />
+                Ministry
+              </span>
+            </h2>
+            <p class="text-lg mb-10">
+              Clearview creates a safe, nurturing environment for kids, where
+              they can grow, explore, and feel loved. Our dedicated volunteers
+              provide a fun-filled atmosphere with engaging activities and
+              interactive games. Amidst laughter and play, we never lose sight
+              of our core purpose: teaching children about Jesus. Through
+              age-appropriate lessons and hands-on experiences, they discover
+              His love, forgiveness, and acceptance. This holistic approach
+              fosters a strong faith foundation and lifelong relationship with
+              Him.
+            </p>
+          </article>
+        </div>
+        <article class="max-w-[800px] mx-auto pb-40">
+          <h2 class="text-center text-6xl mb-10">College</h2>
+          <p class="text-center text-lg mb-10">
+            Clearview hosts a vibrant college-age ministry that provides a
+            transformative community for young adults. Here, students can be The
+            ministry addresses the unique challenges faced by college students
+            through social activities, deep theological discussions, Bible
+            studies and service projects. By integrating faith into their
+            real-life issues, students develop a mature relationship with Jesus.
+            As a result, young adults can thrive in their faith, impacting their
+            campus and beyond.
+          </p>
+        </article>
+      </section>
+
+      <!-- SUNDAY SCHOOL / LIFE GROUP -->
+      <section>
+        <div
+          class="mx-auto py-24 flex gap-24 justify-center text-white bg-lightBlue"
+        >
+          <article class="max-w-[500px]">
+            <h2 class="text-6xl mb-8">
+              <span class="highlight__light leading-tight">
+                Sunday School / &nbsp; Life Group
+              </span>
+            </h2>
+            <p class="text-lg">
+              Clearview’s Sunday School Life Groups provide a transformative and
+              intimate setting for scripture study and meaningful connections.
+              Participants engage in discussions, explore Bible teachings, and
+              share their journeys within a safe community. Through practical
+              biblical principles, valuable insights are gained for daily life.
+              Authentic friendships cultivate mutual accountability, prayer
+              support, and personal growth. Sunday School Life Groups foster
+              fellowship, warmth, and care. Engaging in Scripture study equips
+              participants to navigate challenges with wisdom and faith.
+              Clearview offers three adult classes based on life stages.
+            </p>
+          </article>
+          <div class="max-w-[500px] mt-10">
+            <img src="/images/life-group.jpg" alt="" class="w-full" />
+          </div>
+        </div>
+      </section>
+
+      <!-- WORSHIP & MISSIONS -->
+      <section class="pb-24">
+        <div class="my-28 mx-auto flex gap-44 justify-center">
+          <article class="max-w-[500px] text-center">
+            <h2 class="text-6xl mb-10">
+              <span class="highlight__dark"> Worship </span>
+            </h2>
+            <p class="text-lg mb-10">
+              The Worship Ministry at Clearview is led by a team of dedicated
+              musicians and singers who strive to create an atmosphere of praise
+              and adoration in each service. Using a combination of modern
+              worship songs and traditional hymns, they seek to engage the
+              congregation in heartfelt worship. Despite the high level of
+              musicianship maintained through regular rehearsals, the worship
+              ministry remains a place for anyone with a passion to lead the
+              church community into a deeper encounter with Jesus.
+            </p>
+            <a
+              href="https://goo.gl/maps/oUVoxyy44KEhb2uW8"
+              class="link-underline decoration-lightBlue"
+              ><strong> Join the Worship Team </strong>
+            </a>
+          </article>
+          <article class="max-w-[500px] text-center">
+            <h2 class="text-6xl mb-10">
+              <span class="highlight__dark"> Missions </span>
+            </h2>
+            <p class="text-lg mb-10">
+              Clearview’s missions ministry is dedicated to making a positive
+              impact in marginalized communities by demonstrating Christ's love
+              through acts of kindness. Our teams have constructed homes and
+              created lasting relationships in Costa Rica, Honduras, and Haiti
+              to name a few. Clearview’s missions ministry is committed to
+              spreading the gospel by providing practical help, and by embodying
+              compassion and service.
+            </p>
+            <a
+              href="https://goo.gl/maps/oUVoxyy44KEhb2uW8"
+              class="link-underline decoration-lightBlue"
+              ><strong> Sign up for updates </strong>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="w-screen bg-darkGrey">
+      <div
+        class="min-h-[366px] w-full bg-darkGrey lg:max-w-[1280px] px-10 py-16 lg:p-0 lg:py-14 lg:px-24 mx-auto"
+      >
+        <div
+          class="flex flex-col gap-12 lg:grid lg:grid-cols-footer mb-10 text-white"
+        >
+          <img
+            src="/images/logo.png"
+            alt="Clearview chapel logo"
+            class="h-12 w-12 lg:h-20 lg:w-20"
+          />
+          <div class="flex flex-col font-forum text-lg gap-5">
+            <p>
+              <a href="#">Give</a>
+            </p>
+            <p>
+              <a href="/first-time-visitors.html">About Us</a>
+            </p>
+            <p>
+              <a href="https://www.facebook.com/clearviewchapel/live_videos"
+                >Livestream</a
+              >
+            </p>
+            <p>
+              <a href="#">Church Directory</a>
+            </p>
+          </div>
+          <div class="flex items-start gap-4 lg:justify-end">
+            <a href="https://www.facebook.com/clearviewchapel/" target="_blank">
+              <img
+                src="/images/facebook.png"
+                alt="Visit our Facebook page"
+                height="29.2px"
+                width="16.3px"
+              />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="/images/instagram.png"
+                alt="Visit our Instagram page"
+                height="29.2px"
+                width="29.2px"
+              />
+            </a>
+          </div>
+        </div>
+        <p class="text-white text-center text-xs font-normal">
+          2101 S Davis Rd, LaGrange, GA, 30241 | &copy; 2023 Clearview Chapel
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

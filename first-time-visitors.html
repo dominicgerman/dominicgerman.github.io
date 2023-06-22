@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/logo.png" />
+    <title>Clearview the church</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Forum&family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/build/index.css" />
+  </head>
+
+  <body
+    class="overflow-x-hidden bg-white font-rubik [&_h1]:font-forum [&_h2]:font-forum [&_h3]:font-forum [&_h4]:font-forum"
+  >
+    <!-- HEADER -->
+    <div
+      class="relative flex items-center shadow-sm h-16 lg:h-20 justify-between bg-white lg:max-w-[1280px] lg:px-10 mx-auto"
+    >
+      <a href="/">
+        <div class="flex items-center gap-2 lg:gap-4 pl-4 lg:pl-0">
+          <img
+            src="/images/logo.png"
+            alt="Clearview Chapel logo"
+            class="h-10 w-10 lg:h-14 lg:w-14"
+          />
+          <img
+            src="/images/title.png"
+            alt="Clearview Chapel logo"
+            class="h-8 w-36 lg:h-14 lg:w-60"
+          />
+        </div>
+      </a>
+      <input
+        type="checkbox"
+        class="opacity-0 peer absolute right-4 h-10 w-10 lg:hidden z-50"
+      />
+      <svg
+        class="peer-checked:hidden absolute right-4 z-40 lg:hidden"
+        width="40"
+        height="16"
+        viewBox="0 0 40 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="40" height="2" fill="black" />
+        <rect y="7" width="40" height="2" fill="black" />
+        <rect y="14" width="40" height="2" fill="black" />
+      </svg>
+      <svg
+        class="hidden peer-checked:block absolute right-4 z-40 lg:hidden"
+        width="40"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="0.443848"
+          y="30.1421"
+          width="42"
+          height="2"
+          transform="rotate(-45 0.443848 30.1421)"
+          fill="black"
+        />
+        <rect
+          x="1.85791"
+          y="0.443604"
+          width="42"
+          height="2"
+          transform="rotate(45 1.85791 0.443604)"
+          fill="black"
+        />
+      </svg>
+      <nav
+        class="hidden peer-checked:flex flex-col items-center justify-center gap-16 fixed top-0 left-1/2 -translate-x-1/2 text-2xl bg-white h-screen w-screen z-30 lg:flex lg:flex-row lg:static lg:text-lg lg:gap-12 lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-x-0"
+      >
+        <a
+          href="/first-time-visitors.html"
+          class="font-medium underline underline-offset-8 decoration-lightBlue decoration-4"
+          >I'm new</a
+        >
+        <a href="/team.html" class="">Team</a>
+        <a href="/ministries.html" class="">Ministries</a>
+        <a href="/support.html">
+          <button class="bg-lightBlue text-white px-8 py-2 rounded-full">
+            Give
+          </button>
+        </a>
+      </nav>
+    </div>
+
+    <main>
+      <!-- HERO -->
+      <section class="h-screen lg:h-[815px] max-w-[1080px] mx-auto bg-white">
+        <div
+          class="h-[338px] bg-center my-16 relative"
+          style="
+            background-image: linear-gradient(
+                90deg,
+                rgba(27, 33, 52, 0.5),
+                rgba(27, 33, 52, 0.5)
+              ),
+              url('/images/sanctuary-banner.jpg');
+          "
+        >
+          <p
+            class="text-white font-forum text-6xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+            First time visitors
+          </p>
+        </div>
+        <div class="flex gap-2 items-center mt-24 mb-8">
+          <div class="">
+            <img src="/images/social.svg" alt="" />
+          </div>
+          <strong>11:00AM Sunday</strong>
+          <div class="h-12 w-px mx-7 bg-lightestGrey"></div>
+          <div class="">
+            <img src="/images/social.svg" alt="" />
+          </div>
+          <strong>Hour-long service</strong>
+          <div class="h-12 w-px mx-7 bg-lightestGrey"></div>
+          <div class="">
+            <img src="/images/social.svg" alt="" />
+          </div>
+          <strong>Casual dress</strong>
+        </div>
+        <p class="font-forum text-4xl">
+          The main goal of our service is to connect people with God. Each and
+          every service we show a passion for the Word, Worship, and Prayer. We
+          hope to see you there!
+        </p>
+      </section>
+
+      <!-- SPOTLIGHT -->
+      <section class="bg-lighterBlue">
+        <div class="max-w-[1080px] mx-auto flex justify-between py-24">
+          <article>
+            <img src="/images/social.svg" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> The Word </span>
+              <div
+                class="h-6 w-[3px] bg-lightBlue absolute top-[6px] -translate-x-3"
+              ></div>
+            </h4>
+            <p class="max-w-xs">
+              A main part of our service is the Sermon. We believe that God
+              speaks to His people through the Bible. Our messages focus on
+              God's Word and how to apply it to our lives.
+            </p>
+          </article>
+          <article>
+            <img src="/images/social.svg" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> Worship </span>
+              <div
+                class="h-6 w-[3px] bg-lightBlue absolute top-[6px] -translate-x-3"
+              ></div>
+            </h4>
+            <p class="max-w-xs">
+              Our worship is designed to bring God glory through music. We
+              typically have a blended service with both contemporary praise and
+              worship as well as some of the classic hymns of the faith.
+            </p>
+          </article>
+          <article>
+            <img src="/images/social.svg" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> Prayer </span>
+              <div
+                class="h-6 w-[3px] bg-lightBlue absolute top-[6px] -translate-x-3"
+              ></div>
+            </h4>
+            <p class="max-w-xs">
+              Our church believes strongly in the power of prayer and we include
+              special times of prayer in our service. We aim for people to
+              connect with God in an authentic way.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- WHAT WE BELIEVE -->
+      <section>
+        <div class="my-28 mx-auto flex gap-44 justify-center">
+          <div class="max-w-[450px]">
+            <img src="/images/service-card.jpg" alt="" class="w-full" />
+          </div>
+          <article class="w-[457px]">
+            <h4 class="text-4xl mb-10">What we believe</h4>
+            <p class="mb-10">
+              Our church is a non-denominational congregation that is affiliated
+              with the Christian movement
+              <a
+                class="underline underline-offset-4 decoration-lightBlue"
+                href="https://www.jesusisthesubject.org/"
+              >
+                Church of God
+              </a>
+              . This movement of Jesus followers has placed an emphasis on
+              salvation, holiness, and unity. Anyone, regardless of their
+              denominational background, who has accepted Christ as their savior
+              is a "member" of God's universal church. All believers are
+              brothers and sisters in Christ.
+            </p>
+            <p class="mb-10">
+              We hold basic orthodox Christian beliefs. In seeking to build
+              harmony within Christian fellowships we often rely on this early
+              church guidance, "in essentials unity, in non-essentials liberty,
+              and in all things charity (or love)." Basically, we like to focus
+              on the core elements of Christianity, while allowing room for
+              other points of view in non-essential doctrines.
+            </p>
+            <a href="https://goo.gl/maps/oUVoxyy44KEhb2uW8"
+              ><strong> Join us &nbsp; &rsaquo; </strong>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- CARDS -->
+
+      <section class="bg-greyBlue">
+        <div
+          class="grid grid-cols-2 pt-32 pb-56 mx-auto max-w-[1080px] gap-y-8 gap-x-8"
+        >
+          <article
+            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+          >
+            <img src="/images/book-icon.png" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> The Bible </span>
+            </h4>
+            <p class="max-w-md">
+              We believe the Bible is the inspired Word of God. It is
+              authoritative for both faith and practice. What the Bible teaches
+              is binding on the lives of all. It is God's eternal truth.
+            </p>
+          </article>
+          <article
+            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+          >
+            <img src="/images/crown-icon.png" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> God </span>
+            </h4>
+            <p class="max-w-md">
+              We believe that God is infinite, all-knowing, and is worthy of our
+              worship and obedience. He is perfect in all His attributes. God is
+              one in essence, yet eternally existing in three Persons—Father,
+              Son, and Holy Spirit.
+            </p>
+          </article>
+          <article
+            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+          >
+            <img src="/images/people-icon.png" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> Humanity </span>
+            </h4>
+            <p class="max-w-md">
+              Humankind was made in the likeness and image of God. However,
+              because of sin, humankind incurred the penalty of spiritual and
+              physical death.
+            </p>
+          </article>
+          <article
+            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+          >
+            <img src="/images/flag-icon.png" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> Salvation </span>
+            </h4>
+            <p class="max-w-md">
+              The shed blood of Jesus Christ on the cross provides the only
+              acceptable sacrifice for the payment of humanity's sin debt before
+              a holy God. God made a way for our sins to be forgiven through the
+              death of His only begotten Son.
+            </p>
+          </article>
+          <article
+            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+          >
+            <img src="/images/heart-icon.png" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> The Christian Life </span>
+            </h4>
+            <p class="max-w-md">
+              God wants all persons to have a real relationship with Him through
+              His Son, Jesus Christ. The Christian life is one of surrender to
+              God - life only begins to make sense when God is in His rightful
+              place at the center of your heart.
+            </p>
+          </article>
+          <article
+            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+          >
+            <img src="/images/house-icon.png" alt="" />
+            <h4 class="text-3xl my-4 relative">
+              <span> The Church </span>
+            </h4>
+            <p class="max-w-md">
+              The church is made up of those who have placed their faith in
+              Jesus Christ for the forgiveness of their sins. It is a place
+              where believers receive healing and grow in God's truth, and where
+              they are equipped to impact the world with gospel.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="w-screen bg-darkGrey">
+      <div
+        class="min-h-[366px] w-full bg-darkGrey lg:max-w-[1280px] px-10 py-16 lg:p-0 lg:py-14 lg:px-24 mx-auto"
+      >
+        <div
+          class="flex flex-col gap-12 lg:grid lg:grid-cols-footer mb-10 text-white"
+        >
+          <img
+            src="/images/logo.png"
+            alt="Clearview chapel logo"
+            class="h-12 w-12 lg:h-20 lg:w-20"
+          />
+          <div class="flex flex-col font-forum text-lg gap-5">
+            <p>
+              <a href="#">Give</a>
+            </p>
+            <p>
+              <a href="/first-time-visitors.html">About Us</a>
+            </p>
+            <p>
+              <a href="https://www.facebook.com/clearviewchapel/live_videos"
+                >Livestream</a
+              >
+            </p>
+            <p>
+              <a href="#">Church Directory</a>
+            </p>
+          </div>
+          <div class="flex items-start gap-4 lg:justify-end">
+            <a href="https://www.facebook.com/clearviewchapel/" target="_blank">
+              <img
+                src="/images/facebook.png"
+                alt="Visit our Facebook page"
+                height="29.2px"
+                width="16.3px"
+              />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img
+                src="/images/instagram.png"
+                alt="Visit our Instagram page"
+                height="29.2px"
+                width="29.2px"
+              />
+            </a>
+          </div>
+        </div>
+        <p class="text-white text-center text-xs font-normal">
+          2101 S Davis Rd, LaGrange, GA, 30241 | &copy; 2023 Clearview Chapel
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
