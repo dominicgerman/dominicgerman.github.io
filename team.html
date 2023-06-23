@@ -14,6 +14,7 @@
     />
 
     <link rel="stylesheet" href="/build/index.css" />
+    <script defer src="/script.js"></script>
   </head>
 
   <body class="overflow-x-hidden bg-white font-rubik">
@@ -94,15 +95,67 @@
       </nav>
     </div>
 
-    <!-- TEAM PAGE GOES HERE -->
-    <!-- TEAM PAGE GOES HERE -->
-    <!-- TEAM PAGE GOES HERE -->
+    <!-- TEAM -->
+    <main class="background-clip__team font-forum">
+      <section class="max-w-[1080px] pt-28 pb-64 mx-6 lg:mx-auto">
+        <h1 class="text-6xl text-center">The Clearview Team</h1>
+        <p class="py-16 text-4xl">
+          Learn more about our faithful team --- we are dedicated to serving God
+          and our community. We look forward to worshipping with you, in Christ.
+        </p>
+        <div class="grid grid-cols-1 gap-y-12 gap-x-9 lg:grid-cols-3">
+          <article id="charlie">
+            <div class="w-full lg:max-w-[335px] max-h-[335px]">
+              <img src="/images/charlie.jpg" alt="" />
+            </div>
+            <h3 class="text-[40px] text-center mt-6">Dr. Charlie Metcalf</h3>
+            <h4 class="text-[30px] text-center">Lead Pastor</h4>
+          </article>
+          <article id="scottie">
+            <div class="w-full lg:max-w-[335px] max-h-[335px]">
+              <img src="/images/scottie.jpg" alt="" />
+            </div>
+            <h3 class="text-[40px] text-center mt-6">Scottie Allen</h3>
+            <h4 class="text-[30px] text-center">Student Ministry Leader</h4>
+          </article>
+          <article id="crystal">
+            <div class="w-full lg:max-w-[335px] max-h-[335px]">
+              <img src="/images/crystal.jpg" alt="" />
+            </div>
+            <h3 class="text-[40px] text-center mt-6">Crystal House</h3>
+            <h4 class="text-[30px] text-center">Children's Ministry</h4>
+          </article>
+          <article id="david">
+            <div class="w-full lg:max-w-[335px] h-[335px]">
+              <img src="/images/hanch.jpg" class="w-full" alt="" />
+            </div>
+            <h3 class="text-[40px] text-center mt-6">David Hahn</h3>
+            <h4 class="text-[30px] text-center">Worship Leader</h4>
+          </article>
+          <article id="board">
+            <div class="w-full lg:max-w-[335px] max-h-[335px]">
+              <img src="/images/board.jpg" alt="" />
+            </div>
+            <h3 class="text-[40px] text-center mt-6">Governance</h3>
+            <h4 class="text-[30px] text-center">Board of Trustees</h4>
+          </article>
+        </div>
 
-    <div class="py-40 text-center text-7xl">
-      <h1 class="py-3">👋</h1>
-      <h1 class="py-3">Hi Snoot!</h1>
-      <h1 class="py-3">😉 &nbsp; 😘</h1>
-    </div>
+        <dialog id="modal" class="mx-4 max-w-xl border-none">
+          <div class="flex justify-end">
+            <button
+              id="close-button"
+              class="bg-none border-none right-4 font-rubik"
+            >
+              Close
+            </button>
+          </div>
+          <h3 id="name" class="text-4xl text-center mt-6">Dr. Charlie</h3>
+          <h4 id="position" class="text-3xl text-center">Lead Pastor</h4>
+          <p id="bio" class="text-center p-8 font-rubik"></p>
+        </dialog>
+      </section>
+    </main>
 
     <!-- FOOTER -->
     <footer class="w-screen bg-darkGrey">
