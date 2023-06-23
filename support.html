@@ -16,9 +16,7 @@
     <link rel="stylesheet" href="/build/index.css" />
   </head>
 
-  <body
-    class="overflow-x-hidden bg-white font-rubik [&_h1]:font-forum [&_h2]:font-forum [&_h3]:font-forum [&_h4]:font-forum [&_figcaption]:font-forum"
-  >
+  <body class="overflow-x-hidden bg-white font-rubik">
     <!-- HEADER -->
     <div
       class="relative flex items-center shadow-sm h-16 lg:h-20 justify-between bg-white lg:max-w-[1280px] lg:px-10 mx-auto"
@@ -95,9 +93,11 @@
     <!-- MAIN -->
     <main class="background__clip">
       <h1 class="text-6xl py-20 text-center">Support our community</h1>
-      <div class="flex gap-9 justify-center pb-52">
+      <div
+        class="flex flex-col lg:flex-row gap-9 justify-center pb-52 max-w-[1080px] mx-6 lg:mx-auto"
+      >
         <article
-          class="w-[335px] h-[446px] p-8 bg-white card-box-shadow rounded-sm"
+          class="max-w-[335px] h-[446px] p-8 bg-white card-box-shadow rounded-sm"
         >
           <h3 class="text-3xl py-8 text-center">Give in person</h3>
           <p class="text-xl text-center">
@@ -108,7 +108,7 @@
           </p>
         </article>
         <article
-          class="flex flex-col items-center w-[335px] h-[446px] p-8 bg-white card-box-shadow rounded-sm relative border-2 border-lightBlue"
+          class="flex flex-col items-center max-w-[335px] h-[446px] p-8 bg-white card-box-shadow rounded-sm relative border-2 border-lightBlue"
         >
           <span
             class="absolute top-5 right-0 text-lightBlue bg-lighterBlue font-medium px-4 py-1"
@@ -126,7 +126,7 @@
           </a>
         </article>
         <article
-          class="w-[335px] h-[446px] p-8 bg-white card-box-shadow rounded-sm"
+          class="max-w-[335px] h-[446px] p-8 bg-white card-box-shadow rounded-sm"
         >
           <h3 class="text-3xl py-8 text-center">Mail a gift</h3>
           <p class="text-xl text-center">

@@ -16,9 +16,7 @@
     <link rel="stylesheet" href="/build/index.css" />
   </head>
 
-  <body
-    class="overflow-x-hidden bg-white font-rubik [&_h1]:font-forum [&_h2]:font-forum [&_h3]:font-forum [&_h4]:font-forum"
-  >
+  <body class="overflow-x-hidden bg-white font-rubik">
     <!-- HEADER -->
     <div
       class="relative flex items-center shadow-sm h-16 lg:h-20 justify-between bg-white lg:max-w-[1280px] lg:px-10 mx-auto"
@@ -98,9 +96,9 @@
 
     <main>
       <!-- HERO -->
-      <section class="h-screen lg:h-[815px] max-w-[1080px] mx-auto bg-white">
+      <section class="max-w-[1080px] lg:mx-auto bg-white">
         <div
-          class="h-[338px] bg-center my-16 relative"
+          class="h-[338px] bg-center lg:my-16 relative"
           style="
             background-image: linear-gradient(
                 90deg,
@@ -111,39 +109,49 @@
           "
         >
           <p
-            class="text-white font-forum text-6xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            class="text-white font-forum text-6xl absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-center"
           >
             First time visitors
           </p>
         </div>
-        <div class="flex gap-2 items-center mt-24 mb-8">
-          <div class="">
-            <img src="/images/social.svg" alt="" />
+        <div class="mx-6 my-28">
+          <div class="flex justify-between lg:justify-normal items-center my-8">
+            <div
+              class="flex flex-col lg:flex-row items-center gap-3 text-center"
+            >
+              <img src="/images/time.svg" alt="" />
+              <strong class="text-base">11:00AM Sunday</strong>
+            </div>
+            <div class="h-12 w-px mx-7 bg-lightestGrey"></div>
+            <div
+              class="flex flex-col lg:flex-row items-center gap-3 text-center"
+            >
+              <img src="/images/hourglass.svg" alt="" />
+              <strong class="text-base">Hour-long service</strong>
+            </div>
+            <div class="h-12 w-px mx-7 bg-lightestGrey"></div>
+            <div
+              class="flex flex-col lg:flex-row items-center gap-3 text-center"
+            >
+              <img src="/images/tie.svg" alt="" />
+              <strong class="text-base">Casual dress</strong>
+            </div>
           </div>
-          <strong>11:00AM Sunday</strong>
-          <div class="h-12 w-px mx-7 bg-lightestGrey"></div>
-          <div class="">
-            <img src="/images/social.svg" alt="" />
-          </div>
-          <strong>Hour-long service</strong>
-          <div class="h-12 w-px mx-7 bg-lightestGrey"></div>
-          <div class="">
-            <img src="/images/social.svg" alt="" />
-          </div>
-          <strong>Casual dress</strong>
+          <p class="font-forum text-3xl">
+            The main goal of our service is to connect people with God. Each and
+            every service we show a passion for the Word, Worship, and Prayer.
+            We hope to see you there!
+          </p>
         </div>
-        <p class="font-forum text-4xl">
-          The main goal of our service is to connect people with God. Each and
-          every service we show a passion for the Word, Worship, and Prayer. We
-          hope to see you there!
-        </p>
       </section>
 
       <!-- SPOTLIGHT -->
       <section class="bg-lighterBlue">
-        <div class="max-w-[1080px] mx-auto flex justify-between py-24">
+        <div
+          class="max-w-[1080px] mx-9 lg:mx-auto flex flex-col gap-12 items-center lg:flex-row justify-between py-24"
+        >
           <article>
-            <img src="/images/social.svg" alt="" />
+            <img src="/images/the_word.svg" alt="" />
             <h4 class="text-3xl my-4 relative">
               <span> The Word </span>
               <div
@@ -157,7 +165,7 @@
             </p>
           </article>
           <article>
-            <img src="/images/social.svg" alt="" />
+            <img src="/images/the_worship.svg" alt="" />
             <h4 class="text-3xl my-4 relative">
               <span> Worship </span>
               <div
@@ -171,7 +179,7 @@
             </p>
           </article>
           <article>
-            <img src="/images/social.svg" alt="" />
+            <img src="/images/the_prayer.svg" alt="" />
             <h4 class="text-3xl my-4 relative">
               <span> Prayer </span>
               <div
@@ -188,12 +196,12 @@
       </section>
 
       <!-- WHAT WE BELIEVE -->
-      <section>
-        <div class="my-28 mx-auto flex gap-44 justify-center">
+      <section class="max-w-[1080px] mx-6 py-28 lg:mx-auto">
+        <div class="flex flex-col gap-12 lg:gap-0 lg:flex-row justify-between">
           <div class="max-w-[450px]">
             <img src="/images/service-card.jpg" alt="" class="w-full" />
           </div>
-          <article class="w-[457px]">
+          <article class="max-w-[457px]">
             <h4 class="text-4xl mb-10">What we believe</h4>
             <p class="mb-10">
               Our church is a non-denominational congregation that is affiliated
@@ -229,10 +237,10 @@
 
       <section class="bg-greyBlue">
         <div
-          class="grid grid-cols-2 pt-32 pb-56 mx-auto max-w-[1080px] gap-y-8 gap-x-8"
+          class="grid grid-cols-1 lg:grid-cols-2 pt-32 pb-56 mx-6 lg:mx-auto max-w-[1080px] gap-y-8 lg:gap-x-8"
         >
           <article
-            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+            class="bg-white px-6 py-6 lg:pt-8 lg:pl-11 min-h-[283px] rounded-sm shadow-md"
           >
             <img src="/images/book-icon.png" alt="" />
             <h4 class="text-3xl my-4 relative">
@@ -245,7 +253,7 @@
             </p>
           </article>
           <article
-            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+            class="bg-white px-6 py-6 lg:pt-8 lg:pl-11 min-h-[283px] rounded-sm shadow-md"
           >
             <img src="/images/crown-icon.png" alt="" />
             <h4 class="text-3xl my-4 relative">
@@ -259,7 +267,7 @@
             </p>
           </article>
           <article
-            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+            class="bg-white px-6 py-6 lg:pt-8 lg:pl-11 min-h-[283px] rounded-sm shadow-md"
           >
             <img src="/images/people-icon.png" alt="" />
             <h4 class="text-3xl my-4 relative">
@@ -272,7 +280,7 @@
             </p>
           </article>
           <article
-            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+            class="bg-white px-6 py-6 lg:pt-8 lg:pl-11 min-h-[283px] rounded-sm shadow-md"
           >
             <img src="/images/flag-icon.png" alt="" />
             <h4 class="text-3xl my-4 relative">
@@ -286,7 +294,7 @@
             </p>
           </article>
           <article
-            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+            class="bg-white px-6 py-6 lg:pt-8 lg:pl-11 min-h-[283px] rounded-sm shadow-md"
           >
             <img src="/images/heart-icon.png" alt="" />
             <h4 class="text-3xl my-4 relative">
@@ -300,7 +308,7 @@
             </p>
           </article>
           <article
-            class="bg-white pt-8 pl-11 min-h-[283px] rounded-sm shadow-md"
+            class="bg-white px-6 py-6 lg:pt-8 lg:pl-11 min-h-[283px] rounded-sm shadow-md"
           >
             <img src="/images/house-icon.png" alt="" />
             <h4 class="text-3xl my-4 relative">
