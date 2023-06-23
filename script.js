@@ -7,6 +7,9 @@ const crystal = document.querySelector('#crystal')
 const board = document.querySelector('#board')
 
 const modal = document.querySelector('#modal')
+// const backdrop = window.getComputedStyle(modal, '::backdrop')
+// console.log(backdrop)
+
 const closeButton = document.querySelector('#close-button')
 const fullName = document.querySelector('#name')
 const position = document.querySelector('#position')
@@ -51,6 +54,18 @@ const bios = {
     in conducting from the University of Michigan, the Master of Music degree in conducting from the Eastman School of Music, and the Bachelor of Music degree in sacred music (vocal performance emphasis) from the Moody Bible Institute in Chicago, IL. David resides in Columbus, GA and is an avid coffee connoisseur, world traveler, and culinary arts champion.`,
   board: `Our church is led by a seven member board composed of godly women and men. These spiritually mature individuals are chosen by the congregation on an annual basis to serve three year terms. As a team, they gather together and seek God’s direction when it comes to guidance for the church. This group seeks to model servant leadership, wisdom, and unity within the body of Christ.`,
 }
+
+modal.addEventListener('click', function (event) {
+  var rect = modal.getBoundingClientRect()
+  var isInDialog =
+    rect.top <= event.clientY &&
+    event.clientY <= rect.top + rect.height &&
+    rect.left <= event.clientX &&
+    event.clientX <= rect.left + rect.width
+  if (!isInDialog) {
+    modal.close()
+  }
+})
 
 closeButton.addEventListener('click', () => {
   modal.close()
