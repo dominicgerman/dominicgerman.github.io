@@ -119,7 +119,7 @@
       <div class="max-w-[1080px] mx-6 lg:mx-auto my-20 lg:my-24">
         <h2 class="max-w-[500px] mb-7">
           <span
-            class="font-forum text-5xl lg:text-6xl font-normal leading-snug highlight__light"
+            class="font-forum text-5xl lg:text-6xl font-normal leading-snug"
           >
             A church you can call home!
           </span>
@@ -165,6 +165,7 @@
             <a
               href="https://www.facebook.com/clearviewchapel"
               class="relative shadow-2xl"
+              target="_blank"
             >
               <img
                 src="/images/sanctuary.jpg"
@@ -200,7 +201,9 @@
               </div>
               <strong class="text-base">
                 Check out our
-                <a href="https://www.facebook.com/clearviewchapel"
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/clearviewchapel"
                   >Facebook page</a
                 >
                 for all the latest and greatest news and pictures.
@@ -222,7 +225,11 @@
             <span
               >Looking to get in touch? We would love to hear from you.</span
             >
-            <form action="https://formspree.io/f/mrgwzakn" method="post">
+            <form
+              action="https://formspree.io/f/mrgwzakn"
+              method="post"
+              onSubmit="console.log('hello world')"
+            >
               <div class="flex flex-col lg:flex-row gap-5 py-12">
                 <input
                   type="text"
@@ -247,8 +254,15 @@
                   rows="6"
                   placeholder="Your message here..."
                 ></textarea>
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/"
+                />
                 <button
                   type="submit"
+                  name="submit"
+                  id="submit"
                   class="w-[200px] h-[50px] bg-lightBlue rounded-full text-white block"
                 >
                   Submit
