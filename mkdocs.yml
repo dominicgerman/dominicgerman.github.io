@@ -1,0 +1,52 @@
+site_name: My Homelab Documentation
+site_url: https://dominicgerman.github.io
+repo_url: https://github.com/dominicgerman/dominicgerman.github.io
+theme:
+  name: material
+  favicon: assets/favicon.png
+  features:
+    - content.code.copy
+    - navigation.footer
+  font:
+    text: Roboto
+    code: JetBrains Mono
+  icon:
+    logo: fontawesome/solid/server
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep purple
+      accent: deep orange
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: deep purple
+      accent: deep orange
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+extra:
+  social:
+    - icon: simple/curl
+      link: https://dominicgerman.com
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/dominic-german
