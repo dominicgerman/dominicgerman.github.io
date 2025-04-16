@@ -1,12 +1,19 @@
-site_name: My Homelab Documentation
-site_url: https://dominicgerman.github.io
+site_name: Homelab Wiki
+site_url: https://docs.dominicgerman.com
 repo_url: https://github.com/dominicgerman/dominicgerman.github.io
+repo_name: dominicgerman/homelab-wiki
+
 theme:
   name: material
+  language: en
   favicon: assets/favicon.png
   features:
     - content.code.copy
     - navigation.footer
+    - navigation.path
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
   font:
     text: Roboto
     code: JetBrains Mono
@@ -29,6 +36,9 @@ theme:
       primary: deep purple
       accent: deep orange
 markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details # enables collapsible admonitions
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -42,11 +52,17 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
+  - toc:
+      permalink: true
+
 extra:
   social:
     - icon: simple/curl
       link: https://dominicgerman.com
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/dominic-german
+nav:
+  - Overview: "01-overview/index.md"
+  - Tutorials:
+      - How To Set Up a Media Server: "02-tutorials/mediaserver.md"
+      - Create a Reusable Boot Drive with Ventoy: "02-tutorials/ventoy.md"
