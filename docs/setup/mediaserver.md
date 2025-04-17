@@ -52,8 +52,7 @@ pveum useradd dominic@pve -comment "New Admin User"
 pveum aclmod / -user dominic@pve -role Administrator
 ```
 
-!!! info
-    **Optional: Transfer SSH key**
+!!! info "Optional: Transfer SSH key"
 
     You likely already have an ssh key on your personal computer. If you're on a Mac, you can run the following commands from your Mac's terminal so that you can log into your server without a password:
     ```sh

@@ -1,4 +1,4 @@
-site_name: Homelab Wiki
+site_name: Dom's Docs
 site_url: https://docs.dominicgerman.com
 repo_url: https://github.com/dominicgerman/dominicgerman.github.io
 repo_name: dominicgerman/homelab-wiki
@@ -62,7 +62,14 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/dominic-german
 nav:
-  - Overview: "01-overview/index.md"
-  - Tutorials:
-      - How To Set Up a Media Server: "02-tutorials/mediaserver.md"
-      - Create a Reusable Boot Drive with Ventoy: "02-tutorials/ventoy.md"
+  - Setup:
+      - "setup/index.md"
+      - How To Set Up a Media Server: "setup/mediaserver.md"
+      - Create a Reusable Boot Drive with Ventoy: "setup/ventoy.md"
+  - Services:
+      - Jellyfin: "services/jellyfin.md"
+      - Nextcloud: "services/nextcloud.md"
+  - Topics:
+      - Mergerfs: "topics/mergerfs.md"
+  - Reference:
+      - Network diagram: "reference/network-diagram.md"
