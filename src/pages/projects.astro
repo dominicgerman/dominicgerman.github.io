@@ -1,0 +1,24 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PostCard from "../components/PostCard.astro";
+import { getCollection } from "astro:content";
+
+const posts = (await getCollection("posts"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title="Dominic German">
+  <div class="index-content framed">
+    <h1 id="hello-there">Hello, I'm Dom.</h1>
+    <p>
+      This is my website. I'm a programmer and singer in the Chicago area.
+      Sometimes I write about things I'm interested in. Those writings can be
+      found below.
+    </p>
+  </div>
+
+  <div class="posts">
+    {posts.map((post) => <PostCard post={post} />)}
+  </div>
+</BaseLayout>

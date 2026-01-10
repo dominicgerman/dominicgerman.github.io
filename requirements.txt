@@ -1,4 +1,0 @@
-mkdocs-git-revision-date-plugin
-material-plausible-plugin
-mkdocs-material
-mkdocs-material-extensions
