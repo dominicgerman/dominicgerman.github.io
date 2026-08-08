@@ -189,3 +189,7 @@ ul ul {
   background: var(--accent);
   color: var(--background);
 }
+
+#hello-there {
+  text-align: center;
+}

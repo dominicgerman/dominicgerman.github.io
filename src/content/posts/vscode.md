@@ -1,10 +1,9 @@
 ---
 title: Why I Sometimes Like Using VSCode
-# description: Sane defaults.
 pubDate: 2024-10-08
 tags:
   - programming
-draft: false
+draft: true
 ---
 I have a pretty decent Neovim setup — I'm using LazyVim, I've got a bunch of customizations that I've made and I've installed several plugins and LSPs. When I initially set it up from scratch, I would say I spent a good 7–8 hours. Maybe more. I love vim motions, I love that I can just stay in the terminal when I want to make changes to a file, no need to jump to an editor. I love that it feels crazy fast and that it's super-lightweight. I love the culture of Neovim — custom keyboards, open source software, and the feeling of superiority that comes with using Neovim.
 

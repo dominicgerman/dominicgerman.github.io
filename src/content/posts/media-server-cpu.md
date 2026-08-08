@@ -1,5 +1,5 @@
 ---
-title: On Media Server CPUs
+title: Media Server CPUs
 pubDate: 2025-09-24
 tags: ['jellyfin', 'hardware']
 ---

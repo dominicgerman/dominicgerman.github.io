@@ -1,10 +1,9 @@
 ---
 title: Why I’m Not Worried About AI Taking My Job
-# description: AI wrote this post.
 pubDate: 2024-10-03
 tags:
   - programming
-draft: false
+draft: true
 ---
 I’m not worried about AI taking my job just yet. It can do some pretty incredible things but I think humans still have the upper hand. Think about it — we’re still living in the epoch where we tell *them* what to do. I tell Chat-GPT to write *my* fuckin’ code. Like no one is thinking “Oh, Dom. Yeah. You know we think a chat bot could replace him. We could tell the chat bot everything we tell him and the chat bot would just destroy him in terms of comprehension, ability to understand the situation and communicate to all the important players…”
 

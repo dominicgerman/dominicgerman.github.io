@@ -1,10 +1,9 @@
 ---
 title: Simplifying My Homelab
-# description: Simplicity.
 pubDate: 2025-03-19
 tags:
   - homelab
-draft: false
+draft: true
 ---
 A few things have happened since my last post. I built two new servers (one for me, one for my brother), I rebuilt yet another server, and I started ripping/re-encoding my media library for streaming with Jellyfin. After building all these servers and spending hours tweaking Handbrake settings, debugging the Jellyfin server in Kubernetes, troubleshooting my Jellyfin client... I was just drowning in bullshit. I was asking myself that scary question -- "what the fuck am I doing here?" I was questioning my motivations more than anything and I came to realize that I've been doing a lot of this for the wrong reasons.
 
