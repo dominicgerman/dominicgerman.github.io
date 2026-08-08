@@ -5,9 +5,6 @@ tags:
   - homelab
 draft: false
 ---
-
-# Media Conversion
-
 My media collection is mostly DVDs and Blu-rays with a handful of 4K UHD discs. For a while, my remuxing/re-encoding workflow was all done on one of my servers via the command line. This was because that server had the most powerful CPU and thus could re-encode 4K files the fastest. I now do most of this on my desktop with GUI versions of the apps.
 
 Below are some of my early notes.

@@ -5,8 +5,6 @@ tags:
   - homelab
 draft: false
 ---
-# NFS
-
 On `nas`:
 ```sh
 apt update

@@ -5,9 +5,6 @@ tags:
   - homelab
 draft: false
 ---
-
-# Caddy
-
 I just installed the apt version first so I wouldn't have to fuss with systemd
 ```sh
 sudo apt install caddy

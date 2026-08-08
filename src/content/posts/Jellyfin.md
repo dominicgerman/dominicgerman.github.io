@@ -5,8 +5,6 @@ tags:
   - homelab
 draft: false
 ---
-# Jellyfin
-
 Jellyfin is my media server software of choice. It's free, open source, and growing rapidly in terms of adoption and development. It has two components -- a server application, and client applications.
 
 ## Server
